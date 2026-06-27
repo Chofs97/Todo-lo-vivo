@@ -1,4 +1,3 @@
-```css
 :root {
   --crudo: #eee8db;
   --crudo-claro: #f8f5ee;
@@ -33,7 +32,7 @@ body {
   line-height: 1.7;
 }
 
-/* Imagen fija de fondo */
+/*imagen fondo */
 body::before {
   content: "";
   position: fixed;
@@ -41,13 +40,13 @@ body::before {
   z-index: -2;
   pointer-events: none;
 
-  background-image: url("../assets/imagenes/fondo.jpg");
+  background-image: url("../assets/imagenes/fondo.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-/* Capa clara para mejorar la lectura */
+/*alfa imagen */
 body::after {
   content: "";
   position: fixed;
@@ -55,7 +54,7 @@ body::after {
   z-index: -1;
   pointer-events: none;
 
-  background-color: rgba(238, 232, 219, 0.89);
+  background-color: rgba(238, 232, 219, 0.70);
 }
 
 img {
@@ -73,7 +72,7 @@ a {
   text-decoration: none;
 }
 
-/* Textura decorativa sobre el fondo */
+/*fondo */
 .site-noise {
   position: fixed;
   inset: 0;
@@ -113,7 +112,7 @@ a {
   pointer-events: none;
 }
 
-/* El contenido queda por encima del fondo y las texturas */
+/* poner contenido encima */
 .site-header,
 main,
 .site-footer,
