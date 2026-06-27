@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo lo vivo: fragmentos de una raíz</title>
+  <meta name="description" content="Sitio web de documentación del proyecto Todo lo vivo: fragmentos de una raíz." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <div class="site-noise" aria-hidden="true"></div>
+  <div class="thread-line" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="#inicio" class="brand" aria-label="Ir al inicio">Todo lo vivo</a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" aria-label="Navegación principal">
+      <a href="#obra">La obra</a>
+      <a href="#documentos">Documentos</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#creditos">Créditos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-media reveal">
+
+<!-- IMAGEN DE PORTADA -->
+
+        <img src="assets/imagenes/portada/portada.jpg" alt="Imagen de portada del proyecto Todo lo vivo" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');" />
+      </div>
+
+      <div class="hero-content reveal">
+
+<!-- ARCHIVO TEXTIL Y SONORO -->
+
+        <p class="eyebrow">Archivo textil y sonoro</p>
+        <h1>Todo lo vivo:<br><span>fragmentos de una raíz</span></h1>
+        <p class="intro">
+          Proyecto de investigación-creación que explora la memoria familiar, el territorio y los vínculos que permanecen inscritos
+          en las voces, los cuerpos y las prácticas textiles.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="#obra">Entrar al archivo</a>
+          <button class="button secondary" id="soundToggle" type="button">Activar sonido</button>
+        </div>
+      </div>
+
+      <audio id="ambientAudio" loop preload="metadata">
+        <source src="assets/audio/obra/paisaje-sonoro.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <section class="section" id="obra">
+      <div class="section-heading reveal">
+
+<!-- PROYECTO -->
+
+        <p class="eyebrow">El proyecto</p>
+        <h2>Una raíz que está suspendida</h2>
+      </div>
+
+      <div class="two-column">
+        <article class="text-card reveal">
+          <p>
+            <strong>Todo lo vivo: fragmentos de una raíz</strong> es una escultura textil y sonora que surge de mi encuentro con bordadoras
+            de una comunidad vinculada con la historia de mi familia materna. A través de sus conversaciones, los relatos de mi abuela y
+            las voces del territorio: la pieza reconstruye fragmentos de una memoria dispersa entre recuerdos, silencios y narraciones heredadas.
+          </p>
+          <p>
+            El bordado suspendido evoca memoria, tierra y raíces como metáforas del enraizamiento. El paisaje sonoro, compuesto por
+            grabaciones de campo, voces y sonidos del entorno, funciona como un archivo vivo que acompaña la presencia del textil.
+          </p>
+        </article>
+
+<!-- FICHA TECNICA -->
+
+        <aside class="info-card reveal">
+          <h3>Ficha técnica</h3>
+          <dl>
+            <div>
+              <dt>Título</dt>
+              <dd>Todo lo vivo: fragmentos de una raíz</dd>
+            </div>
+            <div>
+              <dt>Año</dt>
+              <dd>2026</dd>
+            </div>
+            <div>
+              <dt>Técnica</dt>
+              <dd>Bordado a mano, instalación textil y paisaje sonoro</dd>
+            </div>
+            <div>
+              <dt>Materiales</dt>
+              <dd>Manta cruda, hilo de algodón, audio y sistema de suspensión</dd>
+            </div>
+            <div>
+              <dt>Dimensiones</dt>
+              <dd>Bordado 60 × 60 cm, instalación de 150x150 cm</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+
+<!-- IMAGENES -->
+
+      <div class="gallery-grid reveal" aria-label="Galería de la obra">
+        <figure>
+          <img src="assets/imagenes/obra/obra-01.jpg" alt="Registro de la obra" onerror="this.parentElement.classList.add('image-placeholder'); this.remove();" />
+          <figcaption>Registro general</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/imagenes/obra/obra-02.jpg" alt="Detalle del bordado" onerror="this.parentElement.classList.add('image-placeholder'); this.remove();" />
+          <figcaption>Detalle del bordado</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/imagenes/obra/obra-03.jpg" alt="Montaje de la instalación" onerror="this.parentElement.classList.add('image-placeholder'); this.remove();" />
+          <figcaption>Montaje</figcaption>
+        </figure>
+      </div>
+    </section>
+
+<!-- DOCUMENTACION Y EL TERRITORIO-->
+
+    <section class="section documents" id="documentos">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Documentación</p>
+        <h2>Fotografías y registros sonoros</h2>
+        <p>
+          Esta sección reúne los documentos visuales y sonoros del proyecto en tres núcleos: territorio, encuentros y desplazamientos.
+        </p>
+      </div>
+
+      <div class="document-cards">
+        <article class="document-card reveal" data-gallery="soyaltepec-territorio">
+          <h3>San Miguel Soyaltepec</h3>
+          <p class="doc-subtitle">El territorio</p>
+          <p>
+            Fotografías y sonidos de la aproximación al territorio: paisaje, recorridos, vegetación y espacios vinculados con la memoria familiar.
+          </p>
+          <button type="button" class="open-gallery">Ver documentos</button>
+        </article>
+
+        <article class="document-card reveal" data-gallery="soyaltepec-encuentros">
+          <h3>San Miguel Soyaltepec</h3>
+          <p class="doc-subtitle">El encuentro</p>
+          <p>
+            Registros de las sesiones de bordado, conversaciones, manos, materiales y fragmentos sonoros del espacio compartido.
+          </p>
+          <button type="button" class="open-gallery">Ver documentos</button>
+        </article>
+
+        <article class="document-card reveal" data-gallery="palenque">
+          <h3>Palenque</h3>
+          <p class="doc-subtitle">El recuerdo</p>
+          <p>
+            Fotografías y audios ambientales que amplían la reflexión sobre la raíz, la humedad, el crecimiento y la persistencia de lo vivo.
+          </p>
+          <button type="button" class="open-gallery">Ver documentos</button>
+        </article>
+      </div>
+    </section>
+
+<!-- PROCESO -->
+
+    <section class="section" id="proceso">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Proceso</p>
+        <h2>Bordar la memoria</h2>
+      </div>
+
+      <div class="process-timeline">
+        <article class="process-item reveal">
+          
+          <h3>Escucha</h3>
+          <p>
+            El proceso inicia entre los ecos
+de las memorias familiares, en un viaje a través de
+las conversaciones y los registros
+sonoros de una memoria colectiva fragmentada que
+en un ejercicio de descubrimiento entretejen las raíces
+de este proyecto.  
+          </p>
+        </article>
+        <article class="process-item reveal">
+          <h3>Recorrido</h3>
+          <p>El territorio se documenta a través de fotografías, sonidos ambientales y notas de campo.</p>
+        </article>
+        <article class="process-item reveal">
+          <h3>Bordado</h3>
+          <p>El bordado funciona como práctica de encuentro: una forma de conversar, recordar y materializar vínculos.</p>
+        </article>
+        <article class="process-item reveal">
+          <h3>Suspender</h3>
+          <p>La pieza final convierte el textil en una raíz suspendida, una topografía sensible entre memoria, cuerpo y territorio.</p>
+        </article>
+      </div>
+
+      <div class="gallery-grid reveal" aria-label="Galería del proceso">
+        <figure>
+          <img src="assets/imagenes/proceso/proceso-01.jpg" alt="Proceso de bordado" onerror="this.parentElement.classList.add('image-placeholder'); this.remove();" />
+          <figcaption>Materiales</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/imagenes/proceso/proceso-02.jpg" alt="Detalle del proceso" onerror="this.parentElement.classList.add('image-placeholder'); this.remove();" />
+          <figcaption>Bordado</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/imagenes/proceso/proceso-03.jpg" alt="Registro del proceso" onerror="this.parentElement.classList.add('image-placeholder'); this.remove();" />
+          <figcaption>Registro</figcaption>
+        </figure>
+      </div>
+    </section>
+
+<!-- CREDITOS -->
+
+    <section class="section credits" id="creditos">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Créditos</p>
+        <h2>Agradecimientos</h2>
+      </div>
+      <div class="text-card reveal">
+        <p>
+          Agradezco a las mujeres participantes, a mi familia y a las personas que compartieron
+          su tiempo, sus voces y sus memorias durante el desarrollo de esta obra.
+        </p>
+
+        <ul>
+          <li>Anabel Alto  Sánchez</li>
+          <li>NaXú Margarita Alto Sánchez</li>
+          <li>Xochitl Pixzahualt Alto Sánchez</li>
+          <li>Justina Contreras Alvarado</li>
+          <li>Cristina Román Ramón</li>
+          <li>Sebastían Vicente Ortela</li>
+        </ul>
+
+        <p class="small-note">
+          Las imágenes, audios y testimonios incluidos en este sitio forman parte del archivo documental del proyecto. Su reproducción requiere
+          autorización de las personas participantes y de la autora.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="galleryModal" aria-hidden="true" role="dialog" aria-label="Galería de documentos">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content">
+      <button class="modal-close" type="button" data-close-modal aria-label="Cerrar galería">×</button>
+      <div class="modal-header">
+        <p class="eyebrow" id="modalEyebrow">Documentos</p>
+        <h2 id="modalTitle">Título</h2>
+        <p id="modalText">Descripción</p>
+      </div>
+      <div class="modal-gallery" id="modalGallery"></div>
+      <div class="modal-audio" id="modalAudio"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p><strong>Todo lo vivo:</strong> fragmentos de una raíz <strong>·</strong>  2026 <strong>·</strong> Proyecto realizado por Ana Sofía Vázquez Morales</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
