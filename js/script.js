@@ -56,6 +56,9 @@ const galleries = {
       ['assets/imagenes/territorio-02.webp', 'Detalle del territorio'],
       ['assets/imagenes/territorio-03.webp', 'Recorrido por el territorio'],
       ['assets/imagenes/territorio-04.webp', 'Registro visual del paisaje']
+    ],
+    audio: [
+      
     ]
   },
   'soyaltepec-encuentros': {
@@ -67,6 +70,9 @@ const galleries = {
       ['assets/imagenes/encuentro-02.webp', 'Manos y materiales'],
       ['assets/imagenes/encuentro-03.webp', 'Detalle del encuentro'],
       ['assets/imagenes/encuentro-04.webp', 'Registro de conversación']
+    ], 
+    audio: [
+      
     ]
   },
   palenque: {
