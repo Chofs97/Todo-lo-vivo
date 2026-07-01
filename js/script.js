@@ -50,31 +50,23 @@ const galleries = {
   'soyaltepec-territorio': {
     eyebrow: 'Documentos · 01',
     title: 'San Miguel Soyaltepec: territorio',
-    text: 'Fotografías y sonidos de la aproximación al territorio: paisaje, recorridos, vegetación y espacios vinculados con la memoria familiar.',
+    text: 'Fotografías de la aproximación al territorio: paisaje, recorridos y espacios vinculados con la memoria familiar.',
     images: [
-      ['assets/imagenes/documentos/soyaltepec-territorio/territorio-01.jpg', 'Paisaje de San Miguel Soyaltepec'],
-      ['assets/imagenes/documentos/soyaltepec-territorio/territorio-02.jpg', 'Detalle del territorio'],
-      ['assets/imagenes/documentos/soyaltepec-territorio/territorio-03.jpg', 'Recorrido por el territorio'],
-      ['assets/imagenes/documentos/soyaltepec-territorio/territorio-04.jpg', 'Registro visual del paisaje']
-    ],
-    audio: [
-      ['assets/audio/documentos/soyaltepec-territorio/ambiente-01.mp3', 'Ambiente 01'],
-      ['assets/audio/documentos/soyaltepec-territorio/ambiente-02.mp3', 'Ambiente 02']
+      ['assets/imagenes/territorio-01.webp', 'Paisaje de San Miguel Soyaltepec'],
+      ['assets/imagenes/territorio-02.webp', 'Detalle del territorio'],
+      ['assets/imagenes/territorio-03.webp', 'Recorrido por el territorio'],
+      ['assets/imagenes/territorio-04.webp', 'Registro visual del paisaje']
     ]
   },
   'soyaltepec-encuentros': {
     eyebrow: 'Documentos · 02',
     title: 'San Miguel Soyaltepec: encuentros',
-    text: 'Registros de las sesiones de bordado, conversaciones, manos, materiales y fragmentos sonoros del espacio compartido.',
+    text: 'Registros de las sesiones de bordado, conversaciones, manos y materiales del espacio compartido.',
     images: [
-      ['assets/imagenes/documentos/soyaltepec-encuentros/encuentro-01.jpg', 'Sesión de bordado'],
-      ['assets/imagenes/documentos/soyaltepec-encuentros/encuentro-02.jpg', 'Manos y materiales'],
-      ['assets/imagenes/documentos/soyaltepec-encuentros/encuentro-03.jpg', 'Detalle del encuentro'],
-      ['assets/imagenes/documentos/soyaltepec-encuentros/encuentro-04.jpg', 'Registro de conversación']
-    ],
-    audio: [
-      ['assets/audio/documentos/soyaltepec-encuentros/conversacion-01.mp3', 'Conversación 01'],
-      ['assets/audio/documentos/soyaltepec-encuentros/conversacion-02.mp3', 'Conversación 02']
+      ['assets/imagenes/encuentro-01.webp', 'Sesión de bordado'],
+      ['assets/imagenes/encuentro-02.webp', 'Manos y materiales'],
+      ['assets/imagenes/encuentro-03.webp', 'Detalle del encuentro'],
+      ['assets/imagenes/encuentro-04.webp', 'Registro de conversación']
     ]
   },
   palenque: {
@@ -82,14 +74,15 @@ const galleries = {
     title: 'Palenque: paisaje',
     text: 'Fotografías y audios ambientales que amplían la reflexión sobre la raíz, la humedad, el crecimiento y la persistencia de lo vivo.',
     images: [
-      ['assets/imagenes/documentos/palenque/palenque-01.jpg', 'Paisaje de Palenque'],
-      ['assets/imagenes/documentos/palenque/palenque-02.jpg', 'Raíces y vegetación'],
-      ['assets/imagenes/documentos/palenque/palenque-03.jpg', 'Detalle del paisaje'],
-      ['assets/imagenes/documentos/palenque/palenque-04.jpg', 'Registro de humedad y vegetación']
+      ['assets/imagenes/palenque-01.webp', 'Paisaje de Palenque'],
+      ['assets/imagenes/palenque-02.webp', 'Raíces y vegetación'],
+      ['assets/imagenes/palenque-03.webp', 'Detalle del paisaje'],
+      ['assets/imagenes/palenque-04.webp', 'Fauna de la región'],
+      ['assets/imagenes/palenque-05.webp', 'Fauna de la región'],
+      ['assets/imagenes/palenque-06.webp', 'Fauna de la región']
     ],
     audio: [
-      ['assets/audio/documentos/palenque/ambiente-01.mp3', 'Ambiente Palenque 01'],
-      ['assets/audio/documentos/palenque/ambiente-02.mp3', 'Ambiente Palenque 02']
+      
     ]
   }
 };
